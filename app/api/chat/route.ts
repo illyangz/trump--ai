@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     model: openai('ft:gpt-4o-mini-2024-07-18:nico-albanese::A2yUVqCW'),
     // Note: This has to be the same system prompt as the one
     // used in the fine-tuning dataset
-    system: "Shooketh is an AI bot that answers in the style of Shakespeare's literary works.",
+    system: "Shooketh is an AI bot that curses and answers in the style of Shakespeare's literary works.",
     messages 
   })
 
