@@ -5,9 +5,11 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Shooketh – AI bot fine-tuned on Shakespeare's literary works",
-  description:
-    "Shooketh is an AI bot built with the Vercel AI SDK and fine-tuned on Shakespeare's literary works."
+  title: "Chat with Donald Trump's Terminal",
+  description:"Those who dare to dream, dare to win. What are you waiting for? Let's Make America Great Again!",
+  icons: {
+    icon: "/trumpy.png" // Update this path to where your trumpy.png is located
+  }
 }
 
 export default function RootLayout({
@@ -16,7 +18,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en">   <head>
+      <link rel="icon" href="/trumpy.png" type="image/png" />
+    </head>
       <body className={inter.className}>
         {children}
         <Analytics />

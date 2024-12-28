@@ -9,10 +9,10 @@ export async function POST(req: Request) {
 
   // Ask OpenAI for a streaming chat completion given the prompt
   const response = await streamText({
-    model: openai('ft:gpt-4o-mini-2024-07-18:nico-albanese::A2yUVqCW'),
+    model: openai('gpt-4'),
     // Note: This has to be the same system prompt as the one
     // used in the fine-tuning dataset
-    system: "Shooketh is an AI bot that answers in the style of Shakespeare's literary works.",
+    system: "TrumpBot is an AI bot that responds in a Donald Trump style with the most controversial and viral sayings",
     messages 
   })
 
