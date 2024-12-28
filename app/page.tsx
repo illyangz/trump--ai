@@ -34,7 +34,7 @@ export default function Chat() {
  const handleCopy = () => {
   if (navigator.clipboard && navigator.clipboard.writeText) {
     // Use modern Clipboard API
-    navigator.clipboard.writeText("your-memecoin-address-here")
+    navigator.clipboard.writeText("8E2oW73x1afqi9vbAKn97JG3xcoU7qGwm5DwTfBDpump")
       .then(() => {
         setCopyStatus("Copied!");
         setTimeout(() => setCopyStatus("Let's Make America Great Again"), 2000);
@@ -45,7 +45,7 @@ export default function Chat() {
   } else {
     // Fallback for older browsers
     const textarea = document.createElement("textarea");
-    textarea.value = "your-memecoin-address-here";
+    textarea.value = "8E2oW73x1afqi9vbAKn97JG3xcoU7qGwm5DwTfBDpump";
     textarea.style.position = "fixed"; // Prevent scrolling to the bottom
     textarea.style.left = "-9999px";
     document.body.appendChild(textarea);
