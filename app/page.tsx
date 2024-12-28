@@ -20,7 +20,7 @@ export default function Chat() {
   const formRef = useRef<HTMLFormElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
-  const [copyStatus, setCopyStatus] = useState("Buy $DTT");
+  const [copyStatus, setCopyStatus] = useState("$DTT");
 
   const { messages, input, setInput, handleSubmit, isLoading } = useChat({
     onResponse: (response) => {
@@ -71,30 +71,34 @@ export default function Chat() {
   return (
     <main className="flex flex-col items-center justify-between pb-40">
       <div
-        className={clsx(
-          "fixed top-0 z-50 flex w-full justify-between bg-white px-5 py-2 shadow-md sm:relative sm:bg-transparent sm:shadow-none"
-        )}
-      >
-        <a
-          href="/"
-          target="_blank"
-          className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
-        >
-         
-        </a>
-        <a
-          onClick={handleCopy}
-          className="cursor-pointer rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
-        >
-          <strong>{copyStatus}</strong>
-        </a> 
-        <a href="/"><Image 
-            src="/trumpy.png"
-            alt="trump"
-            width={56}
-            height={56}
-          /></a>
-      </div>
+  className={clsx(
+    "fixed top-0 z-50 flex w-full justify-between bg-white px-5 py-2 shadow-md sm:relative sm:bg-transparent sm:shadow-none"
+  )}
+>
+  <a
+    href="https://photon-sol.tinyastro.io/en/lp/BjSVnyxVhJmxGYLk1M7XB5iym1SMBRt4nG4FTUWokkSQ?handle=74960694bd21f2e5d9f37"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
+  >
+    <strong>Trade $DTT</strong>
+  </a>
+  <a
+    onClick={handleCopy}
+    className="cursor-pointer rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
+  >
+    <strong>{copyStatus}</strong>
+  </a>
+  <a href="/">
+    <Image
+      src="/trumpy.png"
+      alt="trump"
+      width={56}
+      height={56}
+    />
+  </a>
+</div>
+
       {messages.length > 0 ? (
         messages.map((message, i) => (
           <div
