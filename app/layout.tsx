@@ -15,7 +15,7 @@ export const metadata = {
     description: "45th & 47th President of the United States. Builder of walls, maker of deals, and winner of elections. Making America Great Again.", // Optional, can repeat description
     images: [
       {
-        url: "/home.png", // Image path in the public folder
+        url: "/trump-ai.png", // Image path in the public folder
         width: 800,
         height: 600,
         alt: "Trump's AI Homepage Image", // Alt text for the image
