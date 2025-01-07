@@ -48,9 +48,7 @@ export default function Chat() {
       <div className="fixed top-0 z-50 w-full backdrop-blur-sm border-b border-green-900/30">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 py-3">
           <a
-            href="https://photon-sol.tinyastro.io/en/lp/BjSVnyxVhJmxGYLk1M7XB5iym1SMBRt4nG4FTUWokkSQ?handle=74960694bd21f2e5d9f37"
-            target="_blank"
-            rel="noopener noreferrer"
+            
             className="px-4 py-2 bg-green-500/10 rounded-lg text-green-400 hover:text-green-300 hover:bg-green-500/20 transition-all duration-200"
           >
             <strong>Buy $TAI</strong>
