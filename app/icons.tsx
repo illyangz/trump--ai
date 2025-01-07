@@ -25,7 +25,7 @@ export const SendIcon = ({ className }: { className?: string }) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 16 16"
-      fill="none"
+      fill="black"
       className={className}
       strokeWidth="2"
     >
@@ -45,7 +45,8 @@ export const UserIcon = () => {
       height={20}
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="black"
+      
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"

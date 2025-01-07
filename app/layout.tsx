@@ -5,10 +5,10 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Chat with Donald Trump's Terminal",
-  description:"Those who dare to dream, dare to win. What are you waiting for? Let's Make America Great Again!",
+  title: "Trump's Artificial Intelligence",
+  description:"45th & 47th President of the United States. Builder of walls, maker of deals, and winner of elections. Making America Great Again.",
   icons: {
-    icon: "/trumpy.png" // Update this path to where your trumpy.png is located
+    icon: "/trump-ai.png" // Update this path to where your trumpy.png is located
   }
 }
 
