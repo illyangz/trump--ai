@@ -104,44 +104,51 @@ export default function Chat() {
             <div ref={messagesEndRef} />
           </div>
         ) : (
-          <div className={clsx(
-            "flex flex-col items-center justify-center mt-20 space-y-6 px-4",
-            "transition-all duration-700 transform",
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-          )}>
-            <Image
-              src="/trump-ai.png"
-              alt="Trump AI"
-              width={96}
-              height={96}
-              className="rounded-full ring-4 ring-red-500/50 shadow-lg shadow-red-500/20"
-            />
-            <h1 className="text-3xl font-bold text-center text-[red]">
-              Trump's Artificial Intelligence
-            </h1>
-            <p className="text-[red] text-center max-w-md text-lg">
-              Those who dare to dream, dare to win. What are you waiting for?
-              Buy $TAI & Let's Make America Great Again!
-            </p>
-            <div className="flex flex-wrap justify-center gap-3 max-w-2xl">
-              {examples.map((example, i) => (
-                <button
-                  key={i}
-                  className={clsx(
-                    " px-4 py-2",
-                    "text-[red] hover:bg-red-900/30 transition-all duration-200",
-                    ""
-                  )}
-                  onClick={() => {
-                    setInput(example);
-                    inputRef.current?.focus();
-                  }}
-                >
-                  {example}
-                </button>
-              ))}
-            </div>
-          </div>
+          <div
+  className={clsx(
+    "flex flex-col items-center justify-center mt-20 space-y-6 px-4",
+    "transition-all duration-700 transform",
+    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+  )}
+>
+  <Image
+    src="/trump-ai.png"
+    alt="Trump AI"
+    width={96}
+    height={96}
+    className="rounded-full ring-4 ring-red-500/50 shadow-lg shadow-red-500/20"
+  />
+  <h1 className="text-3xl font-bold text-center text-[red]">
+    Trump's Artificial Intelligence
+  </h1>
+  <p className="text-[red] text-center max-w-md text-lg">
+    Those who dare to dream, dare to win. What are you waiting for?
+    Buy $TAI & Let's Make America Great Again!
+  </p>
+  <div
+    className={clsx(
+      "flex flex-wrap justify-center gap-3 max-w-2xl",
+      "backdrop-blur-sm rounded-lg p-4" // Add these styles for the blurry, semi-transparent background
+    )}
+  >
+    {examples.map((example, i) => (
+      <button
+        key={i}
+        className={clsx(
+          "px-4 py-2",
+          "text-[red] hover:bg-red-900/30 transition-all duration-200"
+        )}
+        onClick={() => {
+          setInput(example);
+          inputRef.current?.focus();
+        }}
+      >
+        {example}
+      </button>
+    ))}
+  </div>
+</div>
+
         )}
       </div>
 
