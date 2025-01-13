@@ -72,7 +72,6 @@ export default function Chat() {
                 key={i}
                 className={clsx(
                   "animate-fadeIn transition-all duration-300",
-                  "border-b border-white/30 py-6",
                   message.role === "user"
                 )}
               >
