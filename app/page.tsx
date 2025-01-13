@@ -37,10 +37,10 @@ export default function Chat() {
   const disabled = isLoading || input.length === 0;
 
   return (
-    <main className="relative flex flex-col items-center justify-between min-h-screen bg-red-900  text-[red] ">
+    <main className="relative flex flex-col items-center justify-between min-h-screen bg-[#9e111145]  text-[red] ">
       {/* Static Patriotic Background */}
       <div className="fixed inset-0 z-0 pointer-events-none">
-        <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,0,0,0.1)_25%,transparent_25%,transparent_75%,rgba(255,0,0,0.1)_75%,rgba(255,0,0,0.1)),linear-gradient(45deg,rgba(0,0,255,0.1)_25%,transparent_25%,transparent_75%,rgba(0,0,255,0.1)_75%,rgba(0,0,255,0.1))] bg-[length:50px_50px] opacity-20"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,0,0,0.1)_25%,transparent_25%,transparent_75%,rgba(255,0,0,0.1)_75%,rgba(255,0,0,0.1)),linear-gradient(45deg,rgba(0,0,255,0.1)_25%,transparent_25%,transparent_75%,rgba(0,0,255,0.1)_75%,rgba(0,0,255,0.1))] bg-[length:50px_50px] opacity-10"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-red-900/10 via-black to-black"></div>
       </div>
 
@@ -71,7 +71,7 @@ export default function Chat() {
               <div
                 key={i}
                 className={clsx(
-                  "animate-fadeIn transition-all duration-30 py-6",
+                  "animate-fadeIn transition-all duration-30 py-6 pl-1",
                   message.role === "user"
                 )}
               >
