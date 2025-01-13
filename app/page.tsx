@@ -73,14 +73,14 @@ export default function Chat() {
                 className={clsx(
                   "animate-fadeIn transition-all duration-300",
                   "border-b border-white/30 py-6",
-                  message.role === "user" ? "bg-red-900/70" : "bg-red-700/70"
+                  message.role === "user"
                 )}
               >
                 <div className="max-w-3xl mx-auto flex items-start space-x-4 px-4">
                   <div
                     className={clsx(
                       "flex-shrink-0 rounded-lg p-1",
-                      message.role === "assistant" ? "bg-red-900/70" : "bg-red-700/70"
+                      message.role === "assistant"
                     )}
                   >
                     {message.role === "user" ? (
