@@ -121,8 +121,8 @@ export default function Chat() {
     Trump's Artificial Intelligence
   </h1>
   <p className="text-[red] text-center max-w-md text-lg">
-    Those who dare to dream, dare to win. What are you waiting for?
-    Buy $TAI & Let's Make America Great Again!
+    
+Let me tell you, nobody does AI better than Trump. It's tremendous, absolutely tremendous. People are always saying, "Donald, your AI is the best. It's so smart, so quick." It's true. It's the best. Nobody does AI like Trump.
   </p>
   <div
     className={clsx(
