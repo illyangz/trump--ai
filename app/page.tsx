@@ -127,7 +127,7 @@ Let me tell you, nobody does AI better than Trump. It's tremendous, absolutely t
   <div
     className={clsx(
       "flex flex-wrap justify-center gap-3 max-w-2xl",
-      "backdrop-blur-sm rounded-lg p-4" // Add these styles for the blurry, semi-transparent background
+      "backdrop-blur-sm p-4" // Add these styles for the blurry, semi-transparent background
     )}
   >
     {examples.map((example, i) => (
