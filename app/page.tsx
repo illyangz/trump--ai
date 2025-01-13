@@ -177,7 +177,8 @@ export default function Chat() {
             <button
               className={clsx(
                 "ml-5 px-10 py-3",
-                " bg-black text-[#DE0100] hover:border border-red-500",
+                " bg-black text-[red] border border-red-500/50 hover:border-red-500",
+                "hover:ring-2 hover:ring-red-500/20 focus:outline-none ",
                 
               )}
             >
