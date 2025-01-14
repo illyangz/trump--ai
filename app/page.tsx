@@ -50,7 +50,7 @@ export default function Chat() {
           <a
             className="px-4 py-2 bg-red-600/10 rounded-lg hover:text-red-500 hover:bg-red-600/20 transition-all duration-200"
           >
-            <strong>Buy $TAI</strong>
+            <strong>BUY $TAI</strong>
           </a>
           <a
             href="https://x.com/TrumpAIonSolana"
@@ -118,7 +118,7 @@ export default function Chat() {
     className="rounded-full ring-4 ring-red-500/50 shadow-lg shadow-red-500/20"
   />
   <h1 className="text-3xl font-bold text-center text-[red]">
-    Trump's Artificial Intelligence
+    TRUMP ARTIFICIAL INTELLIGENCE
   </h1>
   <p className="text-[red] text-center max-w-md text-lg">
     
