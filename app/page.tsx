@@ -53,7 +53,7 @@ export default function Chat() {
             <strong>BUY $TAI</strong>
           </a>
           <a
-            href="https://x.com/TrumpAIonSolana"
+            href="https://x.com/TrumpAIOnline"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-red-600/10 rounded-lg hover:text-red-500 hover:bg-red-600/20 transition-all duration-200"
