@@ -47,7 +47,7 @@ export default function Chat() {
       {/* Header */}
       <div className="fixed top-0 z-50 w-full backdrop-blur-sm">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 py-3">
-          <a
+          <a href="https://pump.fun/coin/HriRp1LNDjy3Be64oX3T27U9SNe8kEUDCcPd6MKspump"
             className="px-4 py-2 bg-red-600/10 rounded-lg hover:text-red-500 hover:bg-red-600/20 transition-all duration-200"
           >
             <strong>BUY $TAI</strong>
