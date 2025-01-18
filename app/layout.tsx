@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Trump's Artificial Intelligence",
+  title: "$TrumpGPT",
   description:
     "45th & 47th President of the United States. Builder of walls, maker of deals, and winner of elections. Making America Great Again.",
   icons: {
