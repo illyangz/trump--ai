@@ -86,7 +86,7 @@ THE GREATEST AI, FOLKS. ABSOLUTELY TREMENDOUS. NOBODY DOES AI LIKE WE DO, BELIEV
         </Link>
 
         {/* Features/Stats Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-[80%]">
           <div className="">
             <h3 className="text-xl font-bold mb-2">TREMENDOUS AI</h3>
             <p>THE SMARTEST AI YOU'VE EVER SEEN, FOLKS. EVERYONE SAYS SO.</p>
@@ -96,7 +96,7 @@ THE GREATEST AI, FOLKS. ABSOLUTELY TREMENDOUS. NOBODY DOES AI LIKE WE DO, BELIEV
             <p>WE KNOW THINGS. THE BEST THINGS. ALL THE IMPORTANT THINGS.</p>
           </div>
           <div className="">
-            <h3 className="text-xl font-bold mb-2">MAKING AI GREAT</h3>
+            <h3 className="text-xl font-bold mb-2">MAKING AI GREAT AGAIN</h3>
             <p>WE'RE BRINGING AI BACK, BIGGER AND BETTER THAN EVER BEFORE.</p>
           </div>
         </div>
