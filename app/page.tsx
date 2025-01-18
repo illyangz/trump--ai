@@ -53,7 +53,7 @@ export default function LandingPage() {
             )}
           >
             <strong>
-              {copied ? "Copied!" : `Contract Address: ${contractAddress}`}
+              {copied ? "Copied!" : `CA: ${contractAddress}`}
             </strong>
           </button>
           <a

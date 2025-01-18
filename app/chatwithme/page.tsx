@@ -61,7 +61,7 @@ export default function Chat() {
                   )}
                 >
                   <strong>
-                    {copied ? "Copied!" : `Contract Address: ${contractAddress}`}
+                    {copied ? "Copied!" : `CA: ${contractAddress}`}
                   </strong>
                 </button>
                 <a
