@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const examples = [
-  "How do you define your presidency?",
+ ""
 ];
 
 export default function Chat() {
