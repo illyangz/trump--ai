@@ -53,7 +53,7 @@ export default function LandingPage() {
             )}
           >
             <strong>
-              {copied ? "Copied!" : `CA: ${contractAddress}`}
+              {copied ? "COPIED!" : `CA: ${contractAddress}`}
             </strong>
           </button>
           <a
@@ -76,29 +76,28 @@ export default function LandingPage() {
         <h1 className="text-5xl font-bold mb-4">$TRUMPGPT</h1>
         
         <p className="max-w-xl text-xl mb-8">
-          The greatest AI, folks. Absolutely tremendous. Nobody does AI like we do, believe me.
-        </p>
+THE GREATEST AI, FOLKS. ABSOLUTELY TREMENDOUS. NOBODY DOES AI LIKE WE DO, BELIEVE ME.        </p>
 
         <Link 
           href="/chatwithme"
-          className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-black border-2 border-white rounded-lg hover:bg-gray-900 hover:border-gray-300 transition-all duration-200 hover:ring-2 hover:ring-red-500/20"
+          className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white hover:bg-white hover:bg-opacity-25  hover:border-gray-300 transition-all duration-200 hover:ring-2 hover:ring-red-500/20"
         >
-          Chat with Trump
+          CHAT WITH TRUMP
         </Link>
 
         {/* Features/Stats Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          <div className="backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-white/10">
-            <h3 className="text-xl font-bold mb-2">Tremendous AI</h3>
-            <p>The smartest AI you've ever seen, folks. Everyone says so.</p>
+          <div className="">
+            <h3 className="text-xl font-bold mb-2">TREMENDOUS AI</h3>
+            <p>THE SMARTEST AI YOU'VE EVER SEEN, FOLKS. EVERYONE SAYS SO.</p>
           </div>
-          <div className="backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-white/10">
-            <h3 className="text-xl font-bold mb-2">Huge Knowledge</h3>
-            <p>We know things. The best things. All the important things.</p>
+          <div className="">
+            <h3 className="text-xl font-bold mb-2">HUGE KNOWLEDGE</h3>
+            <p>WE KNOW THINGS. THE BEST THINGS. ALL THE IMPORTANT THINGS.</p>
           </div>
-          <div className="backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-white/10">
-            <h3 className="text-xl font-bold mb-2">Making AI Great</h3>
-            <p>We're bringing AI back, bigger and better than ever before.</p>
+          <div className="">
+            <h3 className="text-xl font-bold mb-2">MAKING AI GREAT</h3>
+            <p>WE'RE BRINGING AI BACK, BIGGER AND BETTER THAN EVER BEFORE.</p>
           </div>
         </div>
       </div>

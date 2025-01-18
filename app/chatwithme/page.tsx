@@ -57,11 +57,11 @@ export default function Chat() {
                   className={clsx(
                     "px-4 py-2 rounded-lg transition-all duration-200",
                     "hover:text-white hover:bg-slate-500/20",
-                    copied && "bg-green-500/20"
+                    copied && "bg-slate-500/20"
                   )}
                 >
                   <strong>
-                    {copied ? "Copied!" : `CA: ${contractAddress}`}
+                    {copied ? "COPIED!" : `CA: ${contractAddress}`}
                   </strong>
                 </button>
                 <a
@@ -135,8 +135,7 @@ export default function Chat() {
     $TRUMPGPT 
   </h1>
   <p className="text-[white] text-center max-w-md text-lg">
-  Donald, your AI is the best. It's so smart, so quick. It's true. It's the best. Nobody does AI like Trump.
-  </p>
+TRUMPGPT IS A GPT MODEL TRAINED ON TRUMP'S MEDIA TRANSCRIPTS. CHAT WITH THE PRESIDENT OF THE UNITED STATES OF AMERICA!  </p>
   <div
     className={clsx(
       "flex flex-wrap justify-center gap-3 max-w-2xl",
@@ -173,25 +172,24 @@ export default function Chat() {
             className="relative flex items-center"
           >
             <Textarea
-              ref={inputRef}
-              placeholder="Send a message..."
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              spellCheck={false}
-              className={clsx(
-                "w-full bg-black text-[white] px-4 py-3",
-                "border border-white",
-                "focus:ring-2 focus:ring-red-500/20 focus:outline-none",
-                "placeholder:text-[white] resize-none"
-              )}
-              rows={1}
-              required
-            />
+  ref={inputRef}
+  placeholder="SEND A MESSAGE..."
+  value={input}
+  onChange={(e) => setInput(e.target.value)}
+  spellCheck={false}
+  className={clsx(
+    "w-full px-4 py-3",
+    "text-md font-medium text-white border-2 border-white hover:bg-white hover:bg-opacity-25 hover:border-gray-300 transition-all duration-200 hover:ring-2 hover:ring-red-500/20",
+    "bg-transparent outline-none resize-none"  // Added these to remove scrollbar and match button
+  )}
+  rows={1}
+  required
+/>
             <button
               className={clsx(
                 "ml-5 px-10 py-3",
-                " bg-black text-[white] border border-white hover:border-gray-300",
-                "hover:ring-2 hover:ring-red-500/20 focus:outline-none ",
+                "text-md font-medium text-white border-2 border-white hover:bg-white hover:bg-opacity-25  hover:border-gray-300 transition-all duration-200 hover:ring-2 hover:ring-red-500/20"
+
                 
               )}
             >
