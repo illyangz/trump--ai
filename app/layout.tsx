@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "45th & 47th President of the United States. Builder of walls, maker of deals, and winner of elections. Making America Great Again.",
   icons: {
-    icon: "/trump-ai.png", // Update this path to where your trumpy.png is located
+    icon: "/DONALD.png", // Update this path to where your trumpy.png is located
   },
 };
 
