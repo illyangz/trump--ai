@@ -50,7 +50,7 @@ export default function Chat() {
     <main className="relative flex flex-col items-center justify-between min-h-screen text-[white] bg-black">
 
       {/* Header */}
-       <div className="fixed top-0 z-50 w-full backdrop-blur-sm">
+       <div className="fixed top-0 z-50 w-full">
               <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 py-3">
                 <button
                   onClick={copyToClipboard}
