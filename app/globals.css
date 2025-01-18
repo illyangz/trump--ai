@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Glass'; /* Make sure 'monospace' fallback is set */
-  background-color: #5b0008; /* Navy blue background */
+  background-color: black; /* Navy blue background */
   color: white; /* White text color */
   
 }
