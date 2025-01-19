@@ -8,7 +8,7 @@ import clsx from "clsx";
 export default function LandingPage() {
   const [isVisible, setIsVisible] = useState(false);
   const [copied, setCopied] = useState(false);
-  const contractAddress = "89787978979878968";
+  const contractAddress = "COMING SOON";
 
   useEffect(() => {
     setIsVisible(true);
