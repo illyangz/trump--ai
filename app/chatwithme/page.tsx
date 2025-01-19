@@ -18,7 +18,7 @@ export default function Chat() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
   const [copied, setCopied] = useState(false);
-  const contractAddress = "89787978979878968";
+  const contractAddress = "COMING SOON";
 
   const { messages, input, setInput, handleSubmit, isLoading } = useChat({
     onResponse: (response) => {
